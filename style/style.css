@@ -622,7 +622,7 @@ button:hover::before,
 .footer {
   background-color: #2d314d;
   color: white;
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 0.5rem;
   text-align: center;
 }
 
@@ -773,5 +773,27 @@ button:hover::before,
     -ms-grid-column-align: end;
         justify-self: end;
   }
+}
+
+.attribution {
+  background-color: #2d314d;
+  color: white;
+  padding: 0.5rem;
+  font-size: 3.52rem;
+  font-weight: 900;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  line-height: 2.25;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.attribution a:link:hover,
+.attribution a:visited:hover {
+  color: #31d35c;
 }
 /*# sourceMappingURL=style.css.map */

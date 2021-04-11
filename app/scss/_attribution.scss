@@ -1,0 +1,19 @@
+.attribution {
+    background-color: $DarkBlue;
+    color: $White;
+    padding: 0.5rem;
+    font-size: $font-xlg;
+    font-weight: 900;
+
+    a:link,
+    a:visited {
+        line-height: 2.25;
+        text-decoration: none;
+        color: $White;
+        transition: color 150ms ease-in-out;
+
+        &:hover {
+            color: $LimeGreen
+        }
+    }
+}
