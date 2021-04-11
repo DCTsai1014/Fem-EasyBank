@@ -4,4 +4,4 @@
 *   build fully responsive website
 *   practise using SASS pre-processor
 *   write clean and reusable code
-*   - [ ] 待辦事項
+- [ ] 待辦事項
